@@ -1,0 +1,9 @@
+def convert_temperature (faren)
+	celsius_temp = ((faren - 32) * 5/9)
+	puts "#{faren} degrees Fahrenheit is equal to #{celsius_temp} degrees Celsius."
+end
+
+puts "Enter the temperature in Fahrenheit that you would like to convert:"
+temp_in = gets.chomp.to_i
+convert_temperature(temp_in)
+
